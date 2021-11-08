@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/50597e9bdf.js" crossorigin="anonymous"></script>
+    <style>
+     * {
+            box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        float: left;
+        padding: 20px;
+    }
+    ul{
+        overflow: hidden;
+    }
+    li{
+        list-style: none;
+        padding: 7px;
+    }
+    li a:hover{
+        background-color: crimson;
+    }
+    table{
+        width:100%;
+    }
+    .side{
+        width: 50%;
+        float: left;
+        padding: 40px;
+    }
+    .box{
+        padding: 20px;
+        background-color: lightgrey;
+    }
+    .text-box{
+        padding: 0;
+    }
+    .text-box .left{
+        float:left;
+    }
+    .text-box .right{
+        float: right;
+    }
+</style>
+
+</head>
+
+<body style="min-height: 100vh; background-color: #f8edeb;">
+    <!--Navbar-->
+    <nav style="background-color: cornflowerblue;">
+
+        <h1>
+            <a href="#" style="color: black;">UZII</a>
+        </h1>
+
+            <ul>
+                <li style="float: left;">
+                    <a href="#" style="color: black;">CATEGORY 1</a>
+                </li>
+                <li style="float: left;">
+                    <a href="#" style="color: black;">CATEGORY 2</a>
+                </li>
+                <li style="float: left;">
+                    <a href="#" style="color: black;">CATEGORY 3</a>
+                </li>
+
+                <li style="float: right;">
+                    <a href="#" style="color: black;"><i class="fas fa-shopping-cart"></i> Chart (1)</a>
+                </li>
+                <li style="float: right;">
+                    <a href="#" style="color: black;"> <i class="fas fa-search"></i></a>
+                </li>
+            </ul>
+
+    </nav>
+<div style="clear: both;"></div>
+    <!--isi-->
+    <section class="side">
+        <h6 hidden>.</h6>
+        <article>
+            <header>
+                <span>Order 131217312</span>
+                <h2>Thank you, Kenny!</h2>
+            </header>
+            <hr> 
+            <p>Your order is confirmed.</p>
+            <p>We've accepted your order and we're getting it ready.</p>
+            <hr>
+
+            <h3>Costumer Information</h3>
+                <table style="border-bottom: 1px solid;">
+                    <tbody>
+                        <tr>
+                            <td><b>Shipping Address</b></td>
+                            <td><b>Billing Address</b></td>
+                        </tr>
+                        <tr>
+                            <td>Kenny Bostick
+                                <br>
+                                <a href="#">12 Waldo Point Road Mishauken,
+                                    NY 11200 United States</a>
+                            </td>
+                            <td>Kenny Bostick
+                                <br>
+                                <a href="#">12 Waldo Point Road Mishauken,
+                                    NY 11200 United States</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Shipping Method</b></td>
+                            <td><b>Payment Method</b></td>    
+                        </tr>
+                        <tr>
+                            <td>UPS Ground (Estimated ship time of 3-6 days)</td>
+                            <td>Ending in 3217 - $23.60</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </article>
+    </section>
+
+<!--Box-->
+<section class="side">
+    <h6 hidden>.</h6>
+    <article class="box">
+        <header>
+            <h3>Summary (1 Item)</h3>
+        </header>
+        <div class="text-box" >
+            <p class="left">Subtotal</p>
+            <p class="right">$20.00</p>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="text-box" >
+            <p class="left">Shipping</p>
+            <p class="right">$2.20</p>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="text-box" >
+            <p class="left">Est. Taxes</p>
+            <p class="right">$1.40</p>
+            <div style="clear: both;"></div>
+        </div>
+        
+        <hr>
+        <div style="text-align: center;">
+        <span>Gift card or Discount code</span><br>
+        <input type="text" name="gc" id="gc"> <button>Apply</button>
+        </div>
+        <hr>
+
+        <div class="text-box" >
+            <p class="left">Total</p>
+            <p class="right">$23.60</p>
+            <div style="clear: both;"></div>
+        </div>
+    </article>
+</section>
+<div style="clear: both;"></div>
+<!--Footer-->
+<footer style="width: 100%; padding-right: 20px;padding-bottom: 20px; background-color: cornflowerblue;">
+    <div style="float: left;">
+        <h3 style="float: left;">
+            <a href="#" style="color: black;">UZII</a>
+        </h3>
+
+        <ul style="margin: 0; padding: 10px;">
+            <li style="float: left;">
+                <a href="#" style="color: black;">Category x</a>
+            </li>
+            <li style="float: left;">
+                <a href="#" style="color: black;">Category y</a>
+            </li>
+            <li style="float: left;">
+                <a href="#" style="color: black;">Category z</a>
+            </li>
+        </ul>
+    </div>
+    <div style="float: right; text-align: right;">
+        <h3>Stay in Touch! Join our Newsletter</h3>
+        <input type="email" id="mail" name="email" placeholder="Enter Email">
+        <button>Subscribe</button>
+        </div>
+<div style="clear: both;"></div>
+</footer>
+
+</body>
+</html>
